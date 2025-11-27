@@ -53,7 +53,7 @@ export default async function decorate(block) {
         
           // let dmUrl = dmUrlEl || "https://smartimaging.scene7.com/is/image/DynamicMediaNA/";
         
-        let dmUrl = dmUrlEl || "https://s7g10.scene7.com/is/image/RaulUgarteEMEA002/";
+        let dmUrl = dmUrlEl || "https://s7g10.scene7.com/is/image/RaulUgarteEMEA002";
                   
           imageEl.setAttribute("data-src", dmUrl + (dmUrl.endsWith('/') ? "" : "/") + imageName);
           //imageEl.setAttribute("src", dmUrl + (dmUrl.endsWith('/') ? "" : "/") + imageName);
