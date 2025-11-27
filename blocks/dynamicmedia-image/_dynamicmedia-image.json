@@ -52,16 +52,7 @@
           "required": true
         },
 
-        {
-          "condition": {
-            "===": [{ "var": "delivery_Type" }, "dm"]
-          },
-            "component": "text",
-            "name": "dmUrl",
-            "value": "https://s7g10.scene7.com/is/image/RaulUgarteEMEA002",
-            "label": "Dynamic Media URL",
-            "valueType": "string"
-        },
+  
         
         {
           "condition": {
