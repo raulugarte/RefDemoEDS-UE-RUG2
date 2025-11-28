@@ -50,10 +50,7 @@ export default async function decorate(block) {
         
           // Get imageName from imageSrc expected in the format /content/dam/<...>/<imageName>.<extension>
           let imageName = imageSrc.split("/").pop().split(".")[0];
-        
           let dmUrl = dmUrlEl || "https://smartimaging.scene7.com/is/image/DynamicMediaNA/";
-        
-
                   
           imageEl.setAttribute("data-src", dmUrl + (dmUrl.endsWith('/') ? "" : "/") + imageName);
           //imageEl.setAttribute("src", dmUrl + (dmUrl.endsWith('/') ? "" : "/") + imageName);
