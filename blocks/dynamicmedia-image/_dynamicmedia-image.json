@@ -51,9 +51,6 @@
           "description": "Select AEM DAM repository from asset selector if using Delivery Type as Dynamic Media. Select DM delivery repository from asset selector if using Delivery Type as Dynamic Media with OpenAPI",
           "required": true
         },
-
-  
-        
         {
           "condition": {
             "===": [{ "var": "delivery_Type" }, "dm-openapi"]
